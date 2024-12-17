@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/src/css/output.css">
+    <title>Research page</title>
+    <link rel="stylesheet" href="../src/css/output.css">
 </head>
 <body>
-    <div>
-        <nav>
-            <div>
-                <span>dragongc</span>
-            </div>
-            <ul>
+    <div class="flex flex-row items-center justify-between p-5 gap-10">
+        <div class="mx-5">
+            <span class="uppercase font-bold text-green-950">dragongc</span>
+        </div>
+        <nav class="flex flex-row gap-10">
+            <ul class="flex flex-row justify-center items-center gap-10">
                 <a href="##">
-                    <li>home</li>
+                    <li>Home</li>
                 </a>
                 <a href="##">
                     <li>About Us</li>
@@ -27,9 +27,27 @@
                 </a>
             </ul>
         </nav>
-        <div>
-            <button>Login</button>
-            <button>Book a demo</button>
+        <div class="flex flex-row gap-5 mr-5">
+            <button class="">Login</button>
+            <button class="px-3 py-3 bg-green-900 rounded-lg text-white">Book a demo</button>
+        </div>
+    </div>
+    <div class="bg-slate-100 h-screen p-10">
+        <div class=" py-5 text-6xl h-[150px] w-[400px] tracking-widest">
+            <h1>Foundational Research</h1>
+        </div>
+        <div class="flex flex-row items-center justify-between mt-10">
+            <div class="">
+                <div class="flex flex-row gap-16">
+                    <a href="" class="active:bg-green-900 active:text-white bg-green-900 rounded-full px-6 py-2 text-white">All</a>
+                    <a href="" class="active:bg-green-900 active:text-white  rounded-full px-6 py-2 ">Type 1</a>
+                    <a href="" class="active:bg-green-900 active:text-white  rounded-full px-6 py-2 ">Type 2</a>
+                    <a href="" class="active:bg-green-900 active:text-white  rounded-full px-6 py-2 e">Type 3</a>
+                </div>
+            </div>
+            <div class="flex items-center">
+                <input type="search" name="searchBar" id="searchBar" placeholder="Search" class="p-2 rounded-lg w-[250px] border-slate-400 border-2 text-black placeholder:text-black">
+            </div>
         </div>
     </div>
 </body>
